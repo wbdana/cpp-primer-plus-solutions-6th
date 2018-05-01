@@ -1,4 +1,4 @@
-// morechar.cpp -- the char type and int type contrasted
+// 3-6-morechar.cpp -- the char type and int type contrasted
 #include <iostream>
 int main()
 {

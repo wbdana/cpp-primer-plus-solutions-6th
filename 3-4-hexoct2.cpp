@@ -1,4 +1,4 @@
-// hexoct2.cpp -- display values in hex and octal
+// 3-4-hexoct2.cpp -- display values in hex and octal
 #include <iostream>
 using namespace std;
 int main()

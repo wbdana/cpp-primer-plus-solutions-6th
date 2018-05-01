@@ -1,4 +1,4 @@
-// getinfo.cpp -- input and output
+// 2-3-getinfo.cpp -- input and output
 #include <iostream>
 
 int main()

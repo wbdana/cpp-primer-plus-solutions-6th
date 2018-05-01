@@ -1,4 +1,4 @@
-// ourfunc.cpp -- defining your own function
+// 2-5-ourfunc.cpp -- defining your own function
 #include <iostream>
 void simon(int);                // function prototype for simon()
 

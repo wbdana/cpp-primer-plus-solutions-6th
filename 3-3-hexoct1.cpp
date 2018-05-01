@@ -1,4 +1,4 @@
-// hexoct1.cpp -- shows hex and octal literals
+// 3-3-hexoct1.cpp -- shows hex and octal literals
 #include <iostream>
 int main()
 {

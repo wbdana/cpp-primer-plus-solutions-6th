@@ -1,4 +1,4 @@
-// convert.cpp -- converts stone to pounds
+// 2-6-convert.cpp -- converts stone to pounds
 #include <iostream>
 int stonetolb(int);             // function prototype
 int main()
