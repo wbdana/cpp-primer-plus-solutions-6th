@@ -10,17 +10,15 @@ int main()
 
     int degrees, minutes, seconds;
     cout << "Enter a latitude in degrees, minutes, and seconds:" << endl;
-    cout << "First, enter the degrees: ___\b\b\b";
+    cout << "First, enter the degrees: __\b\b";
     cin >> degrees;
-    cout << "Next, enter the minutes of arc: ___\b\b\b";
+    cout << "Next, enter the minutes of arc: __\b\b";
     cin >> minutes;
-    cout << "Finally, enter the seconds of arc: ___\b\b\b";
+    cout << "Finally, enter the seconds of arc: __\b\b";
     cin >> seconds;
     double additional_minutes = double(minutes) + (double(seconds) / double(Seconds_Factor));
     double additional_degrees = additional_minutes / double(Minutes_Factor);
-    // double result = 
-    cout << additional_minutes << endl;
-    cout << additional_degrees << endl;
-
+    double result = double(degrees) + additional_degrees;
+    cout << degrees << " degrees, " << minutes << " minutes, and " << seconds << " seconds = " << result << endl;
     return 0;
 }
